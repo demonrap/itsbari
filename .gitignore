@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/ITSBari/FileContentIndex
+/.vs/ITSBari/DesignTimeBuild
+/.vs/ProjectEvaluation
+/Formazione/bin/Debug/netcoreapp3.1
+/Formazione/obj
+/.vs/ITSBari/v17
