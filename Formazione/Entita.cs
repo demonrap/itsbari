@@ -4,7 +4,9 @@ using System.Text;
 
 namespace Formazione
 {
-    
+    /// <summary>
+    /// Enumeratore di gioni
+    /// </summary>
     public enum Giorni
     {
         Lunedi = 1,
