@@ -1,4 +1,4 @@
-﻿namespace Formazione
+﻿namespace Formazione.Esempi
 {
     /// <summary>
     /// Enumeratore di gioni
@@ -14,6 +14,9 @@
         Domenica = 7
     }
 
+    /// <summary>
+    /// Classe customer contiene la proprieta name
+    /// </summary>
     public class Customer {
         public string Name { get; set; } 
     }
