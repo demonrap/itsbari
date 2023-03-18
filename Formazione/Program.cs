@@ -1,6 +1,5 @@
-﻿using System;
-using Formazione.Esempi;
-using static System.Net.Mime.MediaTypeNames;
+﻿using Formazione.Esempi;
+using System;
 
 namespace Formazione
 {
