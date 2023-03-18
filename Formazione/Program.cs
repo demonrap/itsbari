@@ -13,6 +13,7 @@ namespace Formazione
         private static readonly EsempiCondizionali condizionali = new EsempiCondizionali();
 
         private static readonly int[] arrayInt = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        const decimal NUM1 = 10.5m; const decimal NUM2 = 3.25m;
 
         /// <summary>
         /// Funzione principale
@@ -25,9 +26,9 @@ namespace Formazione
             Console.WriteLine($"Il risultato della somma è {Somma(1, 2)}");
             var result = 0;
             Somma(5, 4, ref result);
-            Console.WriteLine($"Il risultato della somma è {result}");            
+            Console.WriteLine($"Il risultato della somma è {result}");          
 
-            const decimal NUM1 = 10.5m; const decimal NUM2 = 3.25m;
+            
             Moltiplicazione(NUM1, NUM2);
             Divisione(NUM1, NUM2);
 
