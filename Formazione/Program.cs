@@ -32,7 +32,7 @@ namespace Formazione
             Moltiplicazione(NUM1, NUM2);
             Divisione(NUM1, NUM2);
 
-            Ciclo("artmetici", "condizionali");
+            CicloEsempi("artmetici", "condizionali");
 
             VerificaCondizioneInOr(true, false);
             VerificaCondizioneInOr(true, true);
@@ -47,26 +47,26 @@ namespace Formazione
 
             VerificaCondizioneConfronto(5, 10);
 
-            Ciclo("condizionali", "stringhe");
+            CicloEsempi("condizionali", "stringhe");
 
             Interpolazione("Luca", "Buono");
             Format("Mario", "Rossi");
 
-            Ciclo("stringhe", "array");
+            CicloEsempi("stringhe", "array");
 
-            StringArray();
-            IntArray();
+            EsempioStringArray();
+            EsempioIntArray();
 
-            Ciclo("array", "iterazione");
+            CicloEsempi("array", "iterazione");
 
-            While(arrayInt);
-            DoWhile(arrayInt);
-            For(arrayInt);
-            ForEach(arrayInt);
-            Continue(arrayInt);
-            Break(arrayInt);
+            EsempioWhile(arrayInt);
+            EsempioDoWhile(arrayInt);
+            EsempioFor(arrayInt);
+            EsempioForEach(arrayInt);
+            EsempioContinue(arrayInt);
+            EsempioBreak(arrayInt);
 
-            Ciclo("iterazione", "condizionali"); ;
+            CicloEsempi("iterazione", "condizionali"); ;
 
             ValutaIf();
             ValutaIf("Con valore");
@@ -86,7 +86,7 @@ namespace Formazione
 
         #region private method
 
-        private static void Ciclo(string fine, string inizio)
+        private static void CicloEsempi(string fine, string inizio)
         {
             Console.WriteLine();
             Console.WriteLine($"Fine esempi {fine}");
@@ -123,18 +123,18 @@ namespace Formazione
 
         #region esempi con array
 
-        private static void StringArray() => Console.WriteLine($"Il risultato del string array è: ${array.EsempioStringArray()}");
-        private static void IntArray() => Console.WriteLine($"Il risultato dell int array è : {array.EsempioIntArray()}");
+        private static void EsempioStringArray() => Console.WriteLine($"Il risultato del string array è: ${array.EsempioStringArray()}");
+        private static void EsempioIntArray() => Console.WriteLine($"Il risultato dell int array è : {array.EsempioIntArray()}");
 
         #endregion
 
         #region esempi iterazioni
-        private static void While(int[] array) => Console.WriteLine($"la somma in while è: {iterazioni.While(array)}");
-        private static void DoWhile(int[] array) => Console.WriteLine($"la somma in do while è: {iterazioni.DoWhile(array)}");
-        private static void For(int[] array) => Console.WriteLine($"la somma in for è: {iterazioni.For(array)}");
-        private static void ForEach(int[] array) => Console.WriteLine($"la somma in foreach è: {iterazioni.ForEach(array)}");
-        private static void Continue(int[] array) => Console.WriteLine($"la somma in continue al verificarsi di una condizione salta è: {iterazioni.Continue(array)}");
-        private static void Break(int[] array) => Console.WriteLine($"la somma in continue al verificarsi di una condizione esce è: {iterazioni.Break(array)}");
+        private static void EsempioWhile(int[] array) => Console.WriteLine($"la somma in while è: {iterazioni.EsempioWhile(array)}");
+        private static void EsempioDoWhile(int[] array) => Console.WriteLine($"la somma in do while è: {iterazioni.EsempioDoWhile(array)}");
+        private static void EsempioFor(int[] array) => Console.WriteLine($"la somma in for è: {iterazioni.EsempioFor(array)}");
+        private static void EsempioForEach(int[] array) => Console.WriteLine($"la somma in foreach è: {iterazioni.EsempioForEach(array)}");
+        private static void EsempioContinue(int[] array) => Console.WriteLine($"la somma in continue al verificarsi di una condizione salta è: {iterazioni.EsempioContinue(array)}");
+        private static void EsempioBreak(int[] array) => Console.WriteLine($"la somma in continue al verificarsi di una condizione esce è: {iterazioni.EsempioBreak(array)}");
 
         #endregion
 
