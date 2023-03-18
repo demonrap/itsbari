@@ -12,7 +12,7 @@ namespace Formazione.Esempi
         /// </summary>
         /// <param name="array">array interi</param>
         /// <returns>torna la somma</returns>
-        public int EsempioWhile(int[] array) 
+        public int While(int[] array) 
         {
             var somma = 0;
             var indice = 0;
@@ -28,7 +28,7 @@ namespace Formazione.Esempi
         /// Do while
         /// <param name="array">array interi</param>
         /// <returns>torna la somma</returns>
-        public int EsempioDoWhile(int[] array)
+        public int DoWhile(int[] array)
         {
             var somma = 0;
             var indice = 0;
@@ -46,7 +46,7 @@ namespace Formazione.Esempi
         /// </summary>
         /// <param name="array">array interi</param>
         /// <returns>torna la somma</returns>
-        public int EsempioFor(int[] array) {
+        public int For(int[] array) {
             var somma = 0;
             for(int i = 0; i < array.Length; i++) 
             {
@@ -60,7 +60,7 @@ namespace Formazione.Esempi
         /// </summary>
         /// <param name="array">array interi</param>
         /// <returns>torna la somma</returns>
-        public int EsempioForEach(int[] array) 
+        public int ForEach(int[] array) 
         {
             var somma = 0;
             foreach(var item in array) somma += item;
@@ -72,7 +72,7 @@ namespace Formazione.Esempi
         /// </summary>
         /// <param name="array">array interi</param>
         /// <returns>torna la somma</returns>
-        public int EsempioContinue(int[] array) 
+        public int Continue(int[] array) 
         {
             var somma = 0;
             foreach(var item in array) 
@@ -88,7 +88,7 @@ namespace Formazione.Esempi
         /// </summary>
         /// <param name="array"></param>
         /// <returns></returns>
-        public int EsempioBreak(int[] array)
+        public int Break(int[] array)
         {
             var somma = 0;
             foreach (var item in array)

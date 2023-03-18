@@ -59,12 +59,12 @@ namespace Formazione
 
             CicloEsempi("array", "iterazione");
 
-            EsempioWhile(arrayInt);
-            EsempioDoWhile(arrayInt);
-            EsempioFor(arrayInt);
-            EsempioForEach(arrayInt);
-            EsempioContinue(arrayInt);
-            EsempioBreak(arrayInt);
+            While(arrayInt);
+            DoWhile(arrayInt);
+            For(arrayInt);
+            ForEach(arrayInt);
+            Continue(arrayInt);
+            Break(arrayInt);
 
             CicloEsempi("iterazione", "condizionali"); ;
 
@@ -129,12 +129,12 @@ namespace Formazione
         #endregion
 
         #region esempi iterazioni
-        private static void EsempioWhile(int[] array) => Console.WriteLine($"la somma in while è: {iterazioni.EsempioWhile(array)}");
-        private static void EsempioDoWhile(int[] array) => Console.WriteLine($"la somma in do while è: {iterazioni.EsempioDoWhile(array)}");
-        private static void EsempioFor(int[] array) => Console.WriteLine($"la somma in for è: {iterazioni.EsempioFor(array)}");
-        private static void EsempioForEach(int[] array) => Console.WriteLine($"la somma in foreach è: {iterazioni.EsempioForEach(array)}");
-        private static void EsempioContinue(int[] array) => Console.WriteLine($"la somma in continue al verificarsi di una condizione salta è: {iterazioni.EsempioContinue(array)}");
-        private static void EsempioBreak(int[] array) => Console.WriteLine($"la somma in continue al verificarsi di una condizione esce è: {iterazioni.EsempioBreak(array)}");
+        private static void While(int[] array) => Console.WriteLine($"la somma in while è: {iterazioni.While(array)}");
+        private static void DoWhile(int[] array) => Console.WriteLine($"la somma in do while è: {iterazioni.DoWhile(array)}");
+        private static void For(int[] array) => Console.WriteLine($"la somma in for è: {iterazioni.For(array)}");
+        private static void ForEach(int[] array) => Console.WriteLine($"la somma in foreach è: {iterazioni.ForEach(array)}");
+        private static void Continue(int[] array) => Console.WriteLine($"la somma in continue al verificarsi di una condizione salta è: {iterazioni.Continue(array)}");
+        private static void Break(int[] array) => Console.WriteLine($"la somma in continue al verificarsi di una condizione esce è: {iterazioni.Break(array)}");
 
         #endregion
 
